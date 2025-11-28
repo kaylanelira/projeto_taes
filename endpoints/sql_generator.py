@@ -1,7 +1,6 @@
-from fastapi import APIRouter, File, UploadFile
+from fastapi import APIRouter
 from pydantic import BaseModel
 from typing import Optional
-import json
 from loguru import logger
 from sql_generator import pipeline_generate_sql
 from core.database import parse_sql_schema
