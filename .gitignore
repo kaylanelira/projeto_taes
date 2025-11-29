@@ -5,3 +5,4 @@ __pycache__/
 results/
 *.log
 .vscode/
+spider_data/
